@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const Categories = document.querySelector('#categories');
 const btn = document.querySelector('button');
 
@@ -14,3 +15,16 @@ elem.forEach(a => {
   );
 });
 })
+=======
+
+
+const btn = document.querySelector('h2');
+
+const a = btn.textContent;
+console.log("Категория:", a);
+
+const r = document.querySelectorAll('#categories');
+
+const n = r.parentNode ;
+console.log(r.children);
+>>>>>>> 2ab07053790006216ad04650bc8f1fa10a94963f
