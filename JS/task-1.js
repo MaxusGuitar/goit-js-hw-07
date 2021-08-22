@@ -1,3 +1,4 @@
+
 const Categories = document.querySelector('#categories');
 const btn = document.querySelector('button');
 
