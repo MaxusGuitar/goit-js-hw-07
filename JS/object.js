@@ -1,0 +1,42 @@
+export default [
+    {
+        name: 'Max',
+        age: 21,
+        sex: 'male',
+        tall: 1.75,
+        collor: 'white',
+        city: 'LA',
+    },
+    {
+        name: 'Dimon',
+        age: 12,
+        sex: 'male',
+        tall: 1.5,
+        collor: 'white',
+        city: 'LA',
+    },
+    {
+        name: 'Marina',
+        age: 50,
+        sex: 'female',
+        tall: 1.65,
+        collor: 'white',
+        city: 'LA',
+    },
+    {
+        name: 'Barbara',
+        age: 23,
+        sex: 'female',
+        tall: 1.70,
+        collor: 'Black',
+        city: 'NY',
+    },
+    {
+        name: 'Stasy',
+        age: 25,
+        sex: 'female',
+        tall: 1.75,
+        collor: 'white',
+        city: 'LA',
+    },
+];
