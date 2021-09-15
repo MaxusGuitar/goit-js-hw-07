@@ -16,7 +16,6 @@ const images = [
 
 function makeGallery(imageArray) {
   const ulElement = document.querySelector('#gallery');
-  
   const markUpString = imageArray.reduce(
     (a, b) => a +  `<li><img  src="${b.url} alt="${b.alt}" width="400"></li>`,""
   );
