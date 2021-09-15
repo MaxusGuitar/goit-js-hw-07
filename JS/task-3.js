@@ -16,16 +16,6 @@ const images = [
 
 function makeGallery(imageArray) {
   const ulElement = document.querySelector('#gallery');
-<<<<<<< HEAD
-  ulElement.classList.add('image');
-  
-  ulElement.style.backgroundColor = 'violet';
-  ulElement.style.display = 'flex';
-  
-console.log(ulElement.style);
-=======
-    ulElement.classList.add('image');
->>>>>>> 2ab07053790006216ad04650bc8f1fa10a94963f
   
   const markUpString = imageArray.reduce(
     (a, b) => a +  `<li><img  src="${b.url} alt="${b.alt}" width="400"></li>`,""
