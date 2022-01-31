@@ -1,21 +1,19 @@
 const ingredients = [
-  'Картошка',
-  'Грибы',
-  'Чеснок',
-  'Помидоры',
-  'Зелень',
-  'Приправы',
+  "Картошка",
+  "Грибы",
+  "Чеснок",
+  "Помидоры",
+  "Зелень",
+  "Приправы",
 ];
 
+const vegetables = ingredients.map((a) => {
+  const b = document.createElement("li");
+  b.textContent = a;
 
-
-const vegetables = ingredients.map(a => {
-    const b = document.createElement('li');
-    b.textContent = a;
-
-    return b;
+  return b;
 });
-const ovosh = document.querySelector('#ingredients');
+const ovosh = document.querySelector("#ingredients");
 ovosh.append(...vegetables);
 
 console.log(vegetables);
